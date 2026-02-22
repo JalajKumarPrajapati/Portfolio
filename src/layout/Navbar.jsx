@@ -34,7 +34,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
-          PM<span className="text-primary">.</span>
+          JK<span className="text-primary">.</span>
         </a>
 
         {/* Desktop Nav */}
@@ -69,7 +69,7 @@ export const Navbar = () => {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden glass-strong animate-fade-in">
-          <div className="container mx-auto px-6 py-6 flex flex-col gap-4">
+          <div className="container mx-auto px-6 py-6 flex flex-col gap-4 justify items-center border">
             {navLinks.map((link, index) => (
               <a
                 href={link.href}

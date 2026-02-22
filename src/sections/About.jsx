@@ -40,39 +40,35 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+             Engineering scalable systems
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                Solving real problems. Learning relentlessly.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
+                I'm a passionate Full Stack Developer with over 2 years of
+                experience Crafting modernweb solutions from UI to database. My
                 journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
+                and it has evolved into a deep expertise in modern web
                 technologies.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
+                I specialize in React, Node.js, and TypeScript, AWS,building
                 everything from sleek landing pages to complex enterprise
                 applications. My approach combines technical excellence with a
                 keen eye for design and user experience.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+               
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My mission is to engineer systems that are not just functional, but scalable and resilient — solutions that handle real-world complexity and remain clean, maintainable, and efficient as they grow."
               </p>
             </div>
           </div>

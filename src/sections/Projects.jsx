@@ -5,7 +5,7 @@ const projects = [
     title: "Fintech Dashboard",
     description:
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
+    image: "/projects/Hippo.png",
     tags: ["React", "Typescript", "NodeJS"],
     link: "#",
     github: "#",
@@ -28,15 +28,6 @@ const projects = [
     link: "#",
     github: "#",
   },
-  {
-    title: "Project Management Tool",
-    description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
-  },
 ];
 
 export const Projects = () => {
@@ -55,7 +46,7 @@ export const Projects = () => {
             Projects that
             <span className="font-serif italic font-normal text-white">
               {" "}
-              make an impact.
+              i Made
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">

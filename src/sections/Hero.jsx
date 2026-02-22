@@ -5,27 +5,22 @@ import {
   Github,
   Linkedin,
   Twitter,
+  Instagram,
+  Youtube,
   Download,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
   "React",
-  "Next.js",
   "TypeScript",
   "Node.js",
   "GraphQL",
   "PostgreSQL",
   "MongoDB",
-  "Redis",
-  "Docker",
   "AWS",
-  "Vercel",
   "Tailwind CSS",
   "Prisma",
-  "Jest",
-  "Cypress",
-  "Figma",
   "Git",
   "GitHub Actions",
 ];
@@ -69,25 +64,22 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                {/* Software Engineer • React Specialist */}
+                Full Stack Developer
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
-                <br />
-                experiences with
-                <br />
+                Crafting modern <br></br><span className="text-primary glow-text">web solutions</span>
+              <br></br>
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  from UI to database.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I'm Jalaj Kumar Prajapati — a full-stack developer specializing in React, Node.js, and cloud-driven systems. I build scalable, high-performance web applications with clean architecture.
               </p>
             </div>
 
@@ -106,13 +98,16 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Github, href: "https://github.com/JalajKumarPrajapati" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/jalaj-kumar-prajapati-359a54230/" },
+                { icon: Twitter, href: "https://x.com/JalajKumarPraj2" },
+                { icon: Instagram, href: "https://www.instagram.com/art_._jk?igsh=MXBxY2h2YmZ0OHNuZQ==" },
+                { icon: Youtube, href: "https://www.youtube.com/@jalaj4323/featured" },
               ].map((social, idx) => (
                 <a
                   key={idx}
                   href={social.href}
+                  target="_blank"
                   className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                 >
                   {<social.icon className="w-5 h-5" />}
@@ -126,19 +121,17 @@ export const Hero = () => {
             <div className="relative max-w-md mx-auto">
               <div
                 className="absolute inset-0 
-              rounded-3xl bg-gradient-to-br 
-              from-primary/30 via-transparent 
-              to-primary/10 blur-2xl animate-pulse"
+              "
               />
-              <div className="relative glass rounded-3xl p-2 glow-border">
+              <div className="relative  ">
                 <img
-                  src="/profile-photo.jpg"
+                  src="/FF.png"
                   alt="Pedro Machado"
-                  className="w-full aspect-[4/5] object-cover rounded-2xl"
+                  className="w-full aspect-[4/5] object-cover animate-float"
                 />
 
                 {/* Floating Badge */}
-                <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
+                <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3">
                   <div className="flex items-center gap-3">
                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                     <span className="text-sm font-medium">
@@ -147,8 +140,8 @@ export const Hero = () => {
                   </div>
                 </div>
                 {/* Stats Badge */}
-                <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 ">
+                  <div className="text-2xl font-bold text-primary">2+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>
