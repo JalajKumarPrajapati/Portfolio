@@ -2,11 +2,11 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Hippocampus",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "Capture, organize,and share notes, videos,tweets and links in one beautiful place",
     image: "/projects/Hippo.png",
-    tags: ["React", "Typescript", "NodeJS"],
+    tags: ["React", "Typescript", "NodeJS","MongoDB"],
     link: "#",
     github: "#",
   },
@@ -14,7 +14,7 @@ const projects = [
     title: "E-Commerce Platform",
     description:
       "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
+    image: "/projects/default.png",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
     link: "#",
     github: "#",
@@ -23,7 +23,7 @@ const projects = [
     title: "AI Writing Assistant",
     description:
       "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
+    image: "/projects/default.png",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
     link: "#",
     github: "#",
@@ -43,15 +43,14 @@ export const Projects = () => {
             Featured Work
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Projects that
+            Projects I'm
             <span className="font-serif italic font-normal text-white">
               {" "}
-              i Made
+             Working On
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            A selection of my recent work, from complex web applications to
-            innovative tools that solve real-world problems.
+            A selection of recent projects — some live and deployed, others currently under development
           </p>
         </div>
 
@@ -121,14 +120,6 @@ export const Projects = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* View All CTA */}
-        <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
         </div>
       </div>
     </section>
