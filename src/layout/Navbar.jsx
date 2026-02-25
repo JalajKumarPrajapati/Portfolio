@@ -7,6 +7,7 @@ const navLinks = [
   { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
   { href: "#testimonials", label: "Testimonials" },
+  { href: "#contact", label: "Contact" },
   
 ];
 
@@ -81,10 +82,6 @@ export const Navbar = () => {
                 {link.label}
               </a>
             ))}
-
-            <Button onClick={() => setIsMobileMenuOpen(false)}>
-              Contact Me
-            </Button>
           </div>
         </div>
       )}
