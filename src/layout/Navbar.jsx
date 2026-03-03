@@ -36,7 +36,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
-          JK<span className="text-primary">.</span>
+          JALAJ<span className="text-primary text-2xl">.</span>
         </a>
 
         {/* Desktop Nav */}
