@@ -4,11 +4,11 @@ const projects = [
   {
     title: "Hippocampus",
     description:
-      "Capture, organize,and share notes, videos,tweets and links in one beautiful place",
-    image: "/projects/Hippo.png",
+      "A full-stack web app that lets users save, organize, and manage content from multiple platforms in one dashboard.",
+    image: "/projects/hippo1.png",
     tags: ["React", "Typescript", "NodeJS","MongoDB"],
     link: "#",
-    github: "#",
+    github: "https://github.com/JalajKumarPrajapati/Hippocampus_FrontEnd1?tab=readme-ov-file",
   },
   {
     title: "E-Commerce Platform",
